@@ -108,14 +108,14 @@ h3 { font-size: var(--fs-h3) }
 
 .wrapper .dynamic-txts{
   margin-left : 15px;
-  /*height: 90px;*/
+  height: 90px;
   line-height: 90px;
   overflow: hidden;
 }
 .dynamic-txts li{
   list-style: none;
   color: #FC6D6D;
-  font-size: 5vw;
+  font-size: 4vw;
   font-weight: 500;
   position: relative;
   top: 0;
@@ -137,7 +137,7 @@ h3 { font-size: var(--fs-h3) }
   left: 0;
   height: 130%;
   width: 100%;
-  background: #fff;
+  background: #090541;
   border-left: 2px solid #FC6D6D;
   animation: typing 6s steps(12) infinite;
 }
