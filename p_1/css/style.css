@@ -115,7 +115,7 @@ h3 { font-size: var(--fs-h3) }
 .dynamic-txts li{
   list-style: none;
   color: #FC6D6D;
-  font-size: 60px;
+  font-size: 5vw;
   font-weight: 500;
   position: relative;
   top: 0;
