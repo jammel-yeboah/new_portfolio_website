@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* Custom Properties, update these for your own design */
+/* Custom Properties*/
 
 :root {
     --ff-primary: 'Source Sans Pro', sans-serif;
@@ -37,7 +37,7 @@
 
 /* General styles */
 
-/* endable this to add smooth scrolling */
+/* enable this to add smooth scrolling */
 /* html {
     scroll-behavior: smooth;
 } */
@@ -169,8 +169,6 @@ h3 { font-size: var(--fs-h3) }
     font-weight: var(--fw-bold);
     margin-bottom: 2em;
 }
-
-
 
 
 
@@ -333,9 +331,9 @@ header {
 
 
 
-/*  My services section  */
+/*  My interests section  */
 
-.my-services {
+.my-interests {
     background-color: var(--clr-dark);
     background-image: url(../img/services_background_3.jpg);
     background-size: cover;
@@ -344,12 +342,12 @@ header {
     text-align: center;
 }
 
-.section__title--services {
+.section__title--interests {
     color: var(--clr-accent);
     position: relative;
 }
 
-.section__title--services::after {
+.section__title--interests::after {
     content: '';
     display: block;
     width: 2em;
@@ -359,24 +357,24 @@ header {
     opacity: 0.25;
 }
 
-.services {
+.interests {
     margin-bottom: 4em;
 }
 
-.service {
+.interest {
     max-width: 500px;
     margin: 0 auto;
 }
 
 @media (min-width: 800px) {
-    .services {
+    .interests {
         display: flex;
         max-width: 1000px;
         margin-left: auto;
         margin-right: auto;
     }
     
-    .service + .service {
+    .interest + .interest {
         margin-left: 2em;
     }
 }
@@ -423,7 +421,7 @@ header {
     }
 }
 
-/* My Work */
+/* Projects/ My-work */
 
 .my-work {
     background-color: var(--clr-dark);
