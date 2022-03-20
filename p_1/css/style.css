@@ -13,8 +13,8 @@
     --fw-reg: 300;
     --fw-bold: 900;
     
-    --clr-light: #0C0032;
-    --clr-dark: #ffffff;
+    --clr-light: #0C0032; 
+    --clr-dark: #ffffff; 
     --clr-accent: #3500d3;
     
     --fs-h1: 3rem;
@@ -37,14 +37,11 @@
 
 /* General styles */
 
-/* enable this to add smooth scrolling */
-/* html {
-    scroll-behavior: smooth;
-} */
-
 
 body {
     background: var(--clr-light);
+
+
     color: var(--clr-dark);
     margin: 0;
     font-family: var(--ff-primary);
@@ -158,10 +155,12 @@ h3 { font-size: var(--fs-h3) }
 
 .section__subtitle--intro,
 .section__subtitle--about {
-    background: var(--clr-accent);
-    padding: .25em 1em;
-    font-family: var(--ff-secondary);
-    margin-bottom: 1em;
+    
+  background: var(--clr-accent);
+  padding: .25em 1em;
+  font-family: var(--ff-secondary);
+  margin-bottom: 1em;
+
 }
 
 .section__subtitle--work {
@@ -410,8 +409,7 @@ header {
         position: relative;
         left: -1em;
         width: calc(100% + 2em);
-        padding-left: 1em;
-        padding-right: calc(200px + 4em);
+  
     }
     
     .about-me__img {
