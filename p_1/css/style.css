@@ -40,13 +40,12 @@
 
 body {
     background: var(--clr-light);
-
-
     color: var(--clr-dark);
     margin: 0;
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
     line-height: 1.6;
+
 }
 
 section {
@@ -378,14 +377,15 @@ header {
     }
 }
 
-
 .about-me {
-    max-width: 1000px;
-    margin: 0 auto;
+    text-align: center;
+        max-width: 1000px;
+        margin: 0 auto;
 }
 
 .about-me__img {
     box-shadow: var(--bs);
+    
 }
 
 @media (min-width: 600px) {
@@ -400,16 +400,19 @@ header {
     }
     
     .section__title--about {
+        text-align: center;
         grid-area: title;
     }
     
     .section__subtitle--about {
+        text-align: center;
         grid-column: 1 / -1;
         grid-row: 2;
         position: relative;
         left: -1em;
         width: calc(100% + 2em);
-  
+        padding-left: 1em;
+        padding-right: calc(200px + 4em);
     }
     
     .about-me__img {
