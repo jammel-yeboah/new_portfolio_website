@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jammel Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#interests" class="nav__link">My interests</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="project">
+            <h1 class="section__project__title section__title--project">
+                A custom 32 Bit<strong>Operating System</strong>
+            </h1>
+            <p class="section__project__subtitle section__subtitle--project">32 Bit Operating System</p>
+            <img src="img/os.jpg" alt="" class="project__img">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <p>I developed a custom 32-bit operating system from the ground up - from the x86 Assembly Bootloader all the way up, implementing core OS concepts and functionality. 
+                This educational project showcases a comprehensive approach to OS development, featuring a robust process management 
+                system with a full process lifecycle (fork, exit, wait, exec), interrupt handling with an Interrupt Descriptor Table, 
+                and basic memory management. Notable implementations include a custom executable format for program loading, 
+                a simple terminal driver for I/O operations, a system call interface, and a CPU scheduler based on the Completely fair Scheduler (CFS) algorithm. This project demonstrates a deep understanding 
+                of low-level OS operations, from assembly-level interrupt handling to high-level process management, providing a solid foundation 
+                in operating system principles and architecture.
+            </p>
+            <p>
+                This is an ongoing project. See more details on the GitHub repository below:
+            </p>
+            <table class="table table-sm table-dark">
+                <tbody>
+                  <tr>
+                    <th scope="row"></th>
+                    <td>Full Source Code</td>
+                    <td><a href="https://github.com/jammel-yeboah/32_bit_os" target="blank">github.com/jammel-yeboah/32_bit_os</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </p>
+        </div>
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:jammelyeboah@gmail.com" class="footer__link">jammelyeboah@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/jammel-yeboah/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/jammel-yeboah" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
